@@ -1,4 +1,4 @@
-# Aliyun Sts for PHP
+# Aliyun Oss for PHP
 
 ---
 [![](https://travis-ci.org/ShaoZeMing/Aliyun-Oss.svg?branch=master)](https://travis-ci.org/ShaoZeMing/Aliyun-Oss) 
