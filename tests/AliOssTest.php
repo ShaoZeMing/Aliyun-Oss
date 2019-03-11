@@ -2,6 +2,7 @@
 
 namespace ShaoZeMing\AliOss\Test;
 
+use OSS\Core\OssException;
 use PHPUnit\Framework\TestCase;
 use ShaoZeMing\AliOss\Services\OSSService;
 
@@ -13,7 +14,13 @@ class AliOssTest extends TestCase
 
     public function setUp()
     {
-        $this->oss = new OSSService();
+
+        try {
+            $this->oss = new OSSService();
+        } catch (OssException $e) {
+            $err = "Error : 错误：" . $e->getMessage();
+            echo $err . PHP_EOL;
+        }
 
     }
 
@@ -32,6 +39,11 @@ class AliOssTest extends TestCase
             $result =  $this->oss->createBucket('mijia-xiaoming'); // 获取播放权限参数
             print_r($result);
             return $result;
+        } catch (OssException $e) {
+//
+            $err = "Error : 错误：" . $e->getMessage();
+            echo $err . PHP_EOL;
+
         } catch (\Exception $e) {
 //
             $err = "Error : 错误：" . $e->getMessage();
