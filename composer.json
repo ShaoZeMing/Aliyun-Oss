@@ -1,0 +1,28 @@
+{
+    "name": "shaozeming/aliyun-sts",
+    "description": "继承阿里云Oss composer 包最新版本进行封装的composer package，整理配置便于管理",
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShaoZeMing",
+            "email": "szm19920426@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShaoZeMing\\AliOss\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShaoZeMing\\AliOss\\Tests\\": "./tests"
+        }
+    },
+    "require": {
+        "aliyuncs/oss-sdk-php": "^2.3"
+    }
+}
