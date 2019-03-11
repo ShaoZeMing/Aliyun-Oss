@@ -5,7 +5,6 @@
 [![](https://img.shields.io/packagist/v/ShaoZeMing/aliyun-oss.svg)](https://packagist.org/packages/shaozeming/aliyun-oss) 
 [![](https://img.shields.io/packagist/dt/ShaoZeMing/aliyun-oss.svg)](https://packagist.org/packages/stichoza/shaozeming/aliyun-oss)
 
-> 这个项目的功能就是获取sts token, 功能虽然很单一，但和其他项目都是低耦合，如果你想使用oss,vod，...请访问他的兄弟项目 
 
 
 ## 同胞兄弟

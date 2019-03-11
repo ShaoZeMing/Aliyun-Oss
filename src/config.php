@@ -16,7 +16,7 @@ return [
         'AccessKeyID' => 'LT********cgJFsp',
         'AccessKeySecret' => 'fNcK*************d6Gn',
         'endpoint' => 'oss-cn-beijing.aliyuncs.com',
-        'bucket' => 'miji***a365',  //
+        'bucket' => 'miji***a365',  //默认bucket
         'is_cname' => false,  // 是否使用自己绑定域名
         'is_ssl' => false,  // 是否使用https
         'timeout' => 3600,  // 授权访问默认时间
