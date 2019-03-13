@@ -71,7 +71,6 @@ class OSSService extends OssClient
     {
 
         $this->config = $config ?: include dirname(__DIR__) . DIRECTORY_SEPARATOR . 'config.php';
-
         $this->accessKeyID = $this->config['oss']['AccessKeyID'];
         $this->accessKeySecret = $this->config['oss']['AccessKeySecret'];
         $this->endpoint = $this->config['oss']['endpoint'];
@@ -92,7 +91,6 @@ class OSSService extends OssClient
     public function setBucket($bucket){
 
         $this->bucket=$bucket;
-
         return $this;
     }
 
