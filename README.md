@@ -23,7 +23,7 @@ $ composer require shaozeming/aliyun-oss -v
 
 ### configuration 
 
-拷贝项目下`src/config.php`到你项目中，进行配置其中sts。
+拷贝项目下`src/config.php`到你项目中，进行配置其中oss。
 
 配置示例代码：
 
